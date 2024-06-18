@@ -103,9 +103,9 @@ export default function Clicker() {
   // Titel scale Effect
 
   // ändra färgen på statusbar...
-  useEffect(() => {
+  /* useEffect(() => {
     StatusBar.setBarStyle(Platform.OS === "ios" ? "dark-content" : "default");
-  }, []);
+  }, []); */
   // ändra färgen på statusbar...
 
   // cookie animation
@@ -162,9 +162,9 @@ export default function Clicker() {
       style={styles.backgroundImage}
     >
       {/* ändra färgen på statusbar... */}
-      {/* <StatusBar
+      <StatusBar
         barStyle={Platform.OS === "ios" ? "dark-content" : "default"}
-      /> */}
+      />
       {/* ändra färgen på statusbar... */}
       <View style={styles.container}>
         <View style={styles.scoreContainer}>
